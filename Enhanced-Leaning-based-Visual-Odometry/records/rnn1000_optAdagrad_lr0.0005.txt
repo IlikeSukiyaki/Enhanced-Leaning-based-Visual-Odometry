@@ -1,0 +1,152 @@
+
+==================================================
+n_processors: 8
+data_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI
+image_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI/images/
+pose_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI/pose_GT/
+train_video: ['00', '01', '02', '05', '08', '09']
+valid_video: ['04', '06', '07', '10']
+partition: None
+resize_mode: rescale
+img_w: 608
+img_h: 184
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+minus_point_5: True
+seq_len: (5, 7)
+sample_times: 3
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+rnn_hidden_size: 1000
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+rnn_dropout_out: 0.5
+rnn_dropout_between: 0
+clip: None
+batch_norm: True
+epochs: 10
+batch_size: 8
+pin_mem: True
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+pretrained_flownet: None
+resume: True
+resume_t_or_v: .train
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+==================================================
+
+==================================================
+n_processors: 8
+data_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI
+image_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI/images/
+pose_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI/pose_GT/
+train_video: ['00', '01', '02', '05', '08', '09']
+valid_video: ['04', '06', '07', '10']
+partition: None
+resize_mode: rescale
+img_w: 608
+img_h: 184
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+minus_point_5: True
+seq_len: (5, 7)
+sample_times: 3
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+rnn_hidden_size: 1000
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+rnn_dropout_out: 0.5
+rnn_dropout_between: 0
+clip: None
+batch_norm: True
+epochs: 10
+batch_size: 8
+pin_mem: True
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+pretrained_flownet: None
+resume: True
+resume_t_or_v: .train
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+==================================================
+
+==================================================
+n_processors: 8
+data_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI
+image_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI/images/
+pose_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI/pose_GT/
+train_video: ['00', '01', '02', '05', '08', '09']
+valid_video: ['04', '06', '07', '10']
+partition: None
+resize_mode: rescale
+img_w: 608
+img_h: 184
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+minus_point_5: True
+seq_len: (5, 7)
+sample_times: 3
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+rnn_hidden_size: 1000
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+rnn_dropout_out: 0.5
+rnn_dropout_between: 0
+clip: None
+batch_norm: True
+epochs: 10
+batch_size: 8
+pin_mem: True
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+pretrained_flownet: None
+resume: True
+resume_t_or_v: .train
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+==================================================
+
+==================================================
+n_processors: 8
+data_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI
+image_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI/images/
+pose_dir: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/KITTI/pose_GT/
+train_video: ['00', '01', '02', '05', '08', '09']
+valid_video: ['04', '06', '07', '10']
+partition: None
+resize_mode: rescale
+img_w: 608
+img_h: 184
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+minus_point_5: True
+seq_len: (5, 7)
+sample_times: 3
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+rnn_hidden_size: 1000
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+rnn_dropout_out: 0.5
+rnn_dropout_between: 0
+clip: None
+batch_norm: True
+epochs: 10
+batch_size: 8
+pin_mem: True
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+pretrained_flownet: /home/yifeng/Desktop/DeepVO/DeepVO-pytorch/models/pretrained/flownets_bn_EPE2.459.pth.tar
+resume: True
+resume_t_or_v: .train
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+==================================================
