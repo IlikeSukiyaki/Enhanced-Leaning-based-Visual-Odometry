@@ -25,7 +25,7 @@
 - Copy the folder `./NuScenes_generate/maps`, `./NuScenes_generate/v1.0-trainval` and `./NuScenes_generate/v1.0-test` to your dataset root. Replace the file `splits.py` in the NuScenes-devkit on your environment with our `./NuScenes_generate/splits.py`, otherwise the NuScenes-devkit can not recognize our dataset.
 
 - Then, if you can see the following figures, your dataset is successfully generated 
-<img src="CARLA_run.png" alt="Successful Run" width="700"/>
+- <img src="CARLA_run.png" alt="Successful Run" width="700"/>
 
 
 - ### Format Converter
@@ -57,7 +57,8 @@ output_directory
 
 ### Pretrained Synthetic Dataset Download
 - If you feel confused about above tedious setup for generating your own customizable dataset. We provided a pritrained dataset including a variety of conditions, including raining, foggy, and high traffic-flow conditions. You can download here for the [pretyrained dataset](https://drive.google.com/drive/folders/1GWc_3JzKqdBCun9hw0ZAAk10-ay9vUNK)
-
+- Demo Dataset:
+- <img src="carla_demo_images.png" alt="Successful Run" width="700"/>
 
 
       
