@@ -26,14 +26,10 @@
 
 - Then, if you can see the following figures, your dataset is successfully generated 
 
-<p align="center
-  <img src="CARLA_run.png" align="center" width="70%">
-p>
-
 ![Alt text](CARLA_run.png)
 
 - ### Format Converter
-- This part aims to convert the synthetic dataset to KITTI format, which is based on [work](https://website-name.com/)
+- This part aims to convert the synthetic dataset to KITTI format, which is based on [nuscenes2kitti]([https://website-name.com/](https://github.com/PRBonn/nuscenes2kitti))
 
 
 
