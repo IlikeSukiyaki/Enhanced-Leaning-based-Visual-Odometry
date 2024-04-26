@@ -12,6 +12,7 @@
 - ## CARLA Synthetic Dataset Generation
 - ### Preparation
 - Download [CARLA v0.9.10](https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/CARLA_0.9.10.tar.gz) and unzip it under `./carla`. Follow the install instruction of `scenario_runner` of commit [ad71a2c](https://github.com/carla-simulator/scenario_runner/tree/ad71a2c7ed012d735be2b1158fca51b0761ff26b).
+
 - ### Data Collection
 - Turn on CARLA as default and then run the following shell script.
 - `cd ./carla-nuscenes/scripts`
