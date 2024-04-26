@@ -29,7 +29,7 @@
 ![Alt text](CARLA_run.png)
 
 - ### Format Converter
-- This part aims to convert the synthetic dataset to KITTI format, which is based on [nuscenes2kitti]([https://website-name.com/](https://github.com/PRBonn/nuscenes2kitti))
+- This part aims to convert the synthetic dataset to KITTI format, which is based on [nuscenes2kitti](https://github.com/PRBonn/nuscenes2kitti)
 
 
 
