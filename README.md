@@ -76,9 +76,9 @@ To evaluate the test results, run `evaluation.py` to generate visualizations und
 
 ## Results 
 
-<img src="route_00_ROB498.png" alt="03" width="200"/>
-<img src="route_01_ROB498.png" alt="03" width="200"/>
-<img src="route_02_ROB498.png" alt="03" width="200"/>
+<img src="Results/route_00_ROB498.png" alt="03" width="200"/>
+<img src="Results/route_01_ROB498.png" alt="03" width="200"/>
+<img src="Results/route_02_ROB498.png" alt="03" width="200"/>
       
 
 
