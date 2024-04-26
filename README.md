@@ -30,6 +30,30 @@
 
 - ### Format Converter
 - This part aims to convert the synthetic dataset to KITTI format, which is based on [nuscenes2kitti](https://github.com/PRBonn/nuscenes2kitti)
+- Script usage: 
+
+- ```python3 nuscenes2kitti.py --nuscenes_dir <nuscenes_directory> --output_dir <output_directory>```
+
+- options: 
+
+- `--normalize_remission` set remission values to range `[0,1]`.
+
+- `--mini` compute only for the mini set of scenes.
+
+- `--save_images` save frontal image for each point cloud
+
+- This will create a directory for each scene in `<output_directory>` with the same structure as SemanticKITTI containing:
+
+```
+output_directory
+└── scene_id
+    ├── calib.txt           # dummy file containing just identity transforms
+    ├── files_mapping.txt   # original filenames
+    ├── labels              # directory containing the panoptic labels
+    ├── lidar_tokens.txt    # token for each point cloud
+    ├── poses.txt           # pose for each laserscan
+    └── velodyne            # directory containing the point clouds
+```
 
 
 
