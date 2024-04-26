@@ -23,6 +23,7 @@
 - `python ./NuScenes_generate/create_trainval_wide.py`
 - Copy the folder `./NuScenes_generate/maps`, `./NuScenes_generate/v1.0-trainval` and `./NuScenes_generate/v1.0-test` to your dataset root. Replace the file `splits.py` in the NuScenes-devkit on your environment with our `./NuScenes_generate/splits.py`, otherwise the NuScenes-devkit can not recognize our dataset.
 
+- Then, if you can see the following figures, your dataset is successfully generated 
 
 <p align="center">
   <img src="CARLA_run.png" align="center" width="70%">
