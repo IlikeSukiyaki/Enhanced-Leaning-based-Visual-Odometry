@@ -25,21 +25,7 @@
 
 
 <p align="center">
-  <img src="CARLA_run.png" align="center" width="26%">
-  
-  <h3 align="center"><strong>Optimizing LiDAR Placements for Robust Driving Perception in Adverse Conditions</strong></h3>
-
-  <p align="center">
-      <a href="https://ywyeli.github.io/" target='_blank'>Ye Li</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-      <a href="https://ldkong.com/" target='_blank'>Lingdong Kong</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
-      <a href="https://hanjianghu.net/" target='_blank'>Hanjiang Hu</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
-      <a href="https://scholar.google.com/citations?user=3Ifn2DoAAAAJ" target='_blank'>Xiaohao Xu</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-      <a href="https://robotics.umich.edu/profile/xiaonan-sean-huang/" target='_blank'>Xiaonan Huang</a><sup>1</sup>
-  <br />
-  <sup>1</sup>University of Michigan, Ann Arbor&nbsp;&nbsp;&nbsp;
-  <sup>2</sup>National University of Singapore&nbsp;&nbsp;&nbsp;
-  <sup>3</sup>Carnegie Mellon University
-  </p>
+  <img src="CARLA_run.png" align="center" width="70%">
 
 </p>
 
