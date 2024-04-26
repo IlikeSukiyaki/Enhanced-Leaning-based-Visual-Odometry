@@ -56,7 +56,7 @@ output_directory
 ```
 
 ### Pretrained Synthetic Dataset Download
-- If you feel confused about above tedious setup for generating your own customizable dataset. We provided a pritrained dataset including a variety of conditions, including raining, foggy, and high traffic-flow conditions. You can download here for the [pretyrained dataset](https://drive.google.com/drive/folders/1GWc_3JzKqdBCun9hw0ZAAk10-ay9vUNK)
+- If you feel confused about above tedious setup for generating your own customizable dataset. We provided a pritrained dataset including a variety of conditions, including raining, foggy, and high traffic-flow conditions. You can download here for the [pretrained dataset](https://drive.google.com/drive/folders/1GWc_3JzKqdBCun9hw0ZAAk10-ay9vUNK)
 - Demo Dataset: of course, we have more than this example :)
 - <img src="carla_demo_images.png" alt="Successful Run" width="300"/>
 
