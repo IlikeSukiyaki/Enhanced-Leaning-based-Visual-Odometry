@@ -25,8 +25,8 @@
 - Copy the folder `./NuScenes_generate/maps`, `./NuScenes_generate/v1.0-trainval` and `./NuScenes_generate/v1.0-test` to your dataset root. Replace the file `splits.py` in the NuScenes-devkit on your environment with our `./NuScenes_generate/splits.py`, otherwise the NuScenes-devkit can not recognize our dataset.
 
 - Then, if you can see the following figures, your dataset is successfully generated 
+<img src="CARLA_run.png" alt="Successful Run" width="700"/>
 
-![Alt text](CARLA_run.png)
 
 - ### Format Converter
 - This part aims to convert the synthetic dataset to KITTI format, which is based on [nuscenes2kitti](https://github.com/PRBonn/nuscenes2kitti)
