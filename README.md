@@ -60,6 +60,20 @@ output_directory
 - Demo Dataset: of course, we have more than this example :)
 - <img src="carla_demo_images.png" alt="Successful Run" width="300"/>
 
+## Preprocessing
+Run `preprocessing.py` to get the ground truth for relative poses. The 6DoF relative poses are represented as rotations (roll, pitch, yaw) and translations (x, y, z). 
+
+## Pre-trained FlowNet model
+We refer people to the original [github](https://github.com/ChiWeiHsiao/DeepVO-pytorch) to download the pre-trained FlowNet. Please modify `params.py` to set up the right path.
+
+## Train the DeepVO model
+Run `train.py` to train the DeepVO model. The model will be saved at `experiments/experiment_name/models` and the log file will be stored under `experiments/experiment_name/record`. The hyper-parameters are included in `params.py` and instructions are provided inside. The default image size is set to be `192 x 640`
+
+## Test the DeepVO model
+Run `test.py` to generate estimations under `experiments/experiment_name/results`. 
+
+To evaluate the test results, run `evaluation.py` to generate visualizations under `experiments/experiment_name/results`. The evaluation code is borrowed from [link](https://github.com/LeoQLi/KITTI_odometry_evaluation_tool). 
+
 
       
 
