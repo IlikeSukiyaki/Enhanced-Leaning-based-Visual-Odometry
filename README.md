@@ -74,7 +74,7 @@ Run `test.py` to generate estimations under `experiments/experiment_name/results
 
 To evaluate the test results, run `evaluation.py` to generate visualizations under `experiments/experiment_name/results`. The evaluation code is borrowed from [link](https://github.com/LeoQLi/KITTI_odometry_evaluation_tool). 
 
-## Results 
+## Demo Results 
 <img src="Results/route_00_ROB498.png" alt="03" width="300"/><img src="Results/route_01_ROB498.png" alt="03" width="300"/><img src="Results/route_09_ROB498.png" alt="03" width="300"/>
 
 
